@@ -23,6 +23,7 @@ if (vowels.indexOf(rs.getString("first").charAt(0)) == -1) { article = "a";
         }
         rs.close();
         connection.close();
+        
 }
 } catch (Exception e) {
 return "Database connection problem!"; }
