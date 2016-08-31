@@ -11,6 +11,6 @@
 <%
 out.println(new InsultGenerator().generateInsult());
 %>
-
+<div> Hello Jenkins </div>
 </body>
 </html>
